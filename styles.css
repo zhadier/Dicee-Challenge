@@ -39,3 +39,25 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+button {
+  background-color: #4ECCA3;
+  display: block;
+  margin: auto;
+  font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 60px;
+}
+
+button:hover {
+  transform: scale(1.2);
+  background-color: rgb(251, 255, 2);
+}
+
+button:active {
+  transform: scale(1.2);
+  background-color: orange;
+  box-shadow: inset 0px 0px 10px #393E46;
+}
+
+
